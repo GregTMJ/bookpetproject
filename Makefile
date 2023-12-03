@@ -12,3 +12,6 @@ test:
 
 test-coverage:
 	poetry run pytest --cov=src --cov-config=.coveragerc --cov-report  xml
+
+lint:
+	poetry run flake8
