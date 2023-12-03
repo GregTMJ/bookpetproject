@@ -54,15 +54,11 @@ cover/
 test.db
 */sql_app.db
 
+.ruff_cache
+
 # Translations
 *.mo
 *.pot
-
-# Django stuff:
-*.log
-local_settings.py
-db.sqlite3
-db.sqlite3-journal
 
 # PyBuilder
 .pybuilder/
